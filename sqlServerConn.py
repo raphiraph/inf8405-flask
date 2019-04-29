@@ -191,6 +191,9 @@ def delete_and_remake_bd():
     db.session.commit()
     db.session.close()
 
+if __name__ == '__main__':
+    app.run()
+
 # delete_and_remake_bd()
 # post_party("Party", 173.987654321, 173.987654321, 120, [{"name":"yeah", "artist":"yo"},{"name":"yeah 2", "artist":"yo"},{"name":"yeah 3", "artist":"yo"}])
 # print(get_all_parties())
